@@ -19,7 +19,8 @@
 
         <Button
             style="@style/buttonViewStyle"
-            android:text="@string/lug"/>
+            android:text="@string/lug"
+            android:onClick="bVerGuatape"/>
     </LinearLayout>
     <ListView
         android:layout_width="240dp"

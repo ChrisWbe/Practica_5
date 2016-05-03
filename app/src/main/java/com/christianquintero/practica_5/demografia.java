@@ -60,4 +60,12 @@ public class demografia extends AppCompatActivity {
             }
         });
     }
+
+    public void bVerGuatape(View view){
+        Intent i = new Intent(getApplicationContext(), MapsActivity.class);
+        i.putExtra("Latitud", 6.232970);
+        i.putExtra("Longitud", -75.158951);
+        i.putExtra("destino", "Guatapé");
+        startActivity(i);
+    }
 }

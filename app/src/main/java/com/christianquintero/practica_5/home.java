@@ -75,6 +75,8 @@ public class home extends AppCompatActivity {
 
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, android.R.drawable.ic_dialog_dialer, R.string.abierto, R.string.cerradp);
         drawerLayout.setDrawerListener(drawerToggle);
+        
+        //instancio el onItemListenin de mi objeto tipo DrawerToggle para saber que oprimo
 
 
     }

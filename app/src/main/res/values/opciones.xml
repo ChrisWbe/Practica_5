@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Home</item>
+        <item>Hoteles</item>
+        <item>Bares</item>
+        <item>Sitios Turisticos</item>
+        <item>Demografía</item>
+    </string-array>
+</resources>

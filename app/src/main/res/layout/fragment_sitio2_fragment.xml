@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.christianquintero.practica_5.sitio2_fragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            style="@style/layoutViewStyle">
+            <TextView
+                style="@style/textViewStyle.titulos"
+                android:text="@string/sitio2"/>
+            <ImageView
+                style="@style/imageViewStyle"
+                android:src="@drawable/srepresa"/>
+            <TextView
+                style="@style/textViewStyle.contenido"
+                android:text="@string/sitio2Info"/>
+            <Button
+                style="@style/buttonViewStyle"
+                android:onClick="bSitio2"/>
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+</ScrollView>

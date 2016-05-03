@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Practica_5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bar1">Bodeguetta</string>
+    <string name="bar2">El Sacristan</string>
+    <string name="bar3">Tierra Dentro</string>
+    <string name="hotel1">Casa Cayam</string>
+    <string name="hotel2">Guatatur</string>
+    <string name="hotel3">Piedra Santa</string>
+    <string name="sitio1">Isla Guaca </string>
+    <string name="sitio2">Represa de Guatapé</string>
+    <string name="sitio3">Piedra del Peñol</string>
+    <string name="title">Guatapé Turistica</string>
+    <string name="bar1Info">Antigua bodega con mesas de mármol y taburetes en concurrido bar de tapas de toda la vida con vermú y terraza.</string>
+    <string name="bar2Info">En el corazón del Centro Histórico de Ronda, junto a la majestuosa Real Colegiata de Santa María la Mayor, a treinta metros del Ayuntamiento, muy cerca también del puente sobre el Tajo y la famosa Plaza de Toros, se encuentra Ubicado El Restaurante Mesón El Sacristán. Un lugar idílico para comer muy bien, rodeados de trozos de la historia de este pueblo milenario.</string>
+    <string name="bar3Info">Visitamos este restaurante y nos soprendió gratamente, la preparación del pescado es maravillosa y la atención inmejorable, totalmente recomendado. </string>
+    <string name="hotel1Info">Una de las mejores albergues de toda Sur America! Muy buena gente, muy buena onda, muy buenos proyectos, muy buenas pinturas, buenos paisajes, buena cocina, tres hornos!... Mas que recomendable, inevitable. </string>
+    <string name="hotel2Info">El hotel Guatatur es un espacio moderno en el municipio de Guatape comprometido con la cultura local y su entorno natural, ofreciendo a nuestros huespedes vivir experiencias en medio de encantadores paisajes.</string>
+    <string name="hotel3Info"> Zona de reserva natural del Lago Guatape, Guatape</string>
+    <string name="sitio1Info">Un pequeño descanso de la ciudad en un lugar muy agradable</string>
+    <string name="sitio2Info">Este bello monolito de más de 220 metros de altura, situado en el Oriente antioqueño, es unos de los principales atractivos del departamento. Para llegar a su cima, es necesario subir 740 difíciles escalones.. pero el esfuerzo se ve recompensado con la espectacular vista que ofrece, desde donde se puede divisar el Embalse de Guatapé, acompañado de algún liquido frío que calme la sed y reponga las fuerzas para volver a bajar.
+Sin duda una de las experiencias que no se puede perder cuando viste Antioquia.</string>
+    <string name="sitio3Info">Este lugar tiene el encanto de esas construcciones en las que uno lo piensa más de dos veces si subirse o no.
+        La pieda tiene una escalera que parece un cordón de amarre de esos vestidos de época. Está enclavada en la mitad de la represa de Guatapé, una represa que ha formado islotes que maravillan la vista de los curiosos que quieran visitar esta parte de Colombia.
+        La piedra está a una hora de Medellín, la segunda ciudad más importante del país. Imperdible para las personas que quieran hacer un tour por la zona cafetera.</string>
+    <string name="boton">Llévame</string>
+    <string name="abierto">Open navigation drawer</string>
+    <string name="cerradp">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="demo">Información Demográfica</string>
+    <string name="lug">Ver Guatapé</string>
+    <string name="inf">Hola</string>
+
+</resources>

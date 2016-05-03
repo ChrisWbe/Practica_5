@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.christianquintero.practica_5.bar1_fragment">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+            <LinearLayout
+                style="@style/layoutViewStyle">
+                <TextView
+                    style="@style/textViewStyle.titulos"
+                    android:text="@string/bar1"/>
+                <ImageView
+                    style="@style/imageViewStyle"
+                    android:src="@drawable/bbodegueeta"/>
+                <TextView
+                    style="@style/textViewStyle.contenido"
+                    android:text="@string/bar1Info"/>
+                <Button
+                    style="@style/buttonViewStyle"
+                    android:onClick="bBar1"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+</ScrollView>

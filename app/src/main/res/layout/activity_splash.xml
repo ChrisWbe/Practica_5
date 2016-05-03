@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/negro"
+    tools:context="com.christianquintero.practica_5.Splash">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/titulo"
+        android:textSize="40dp"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:shadowRadius="2"
+        android:shadowDx="0.5"
+        />
+
+</RelativeLayout>

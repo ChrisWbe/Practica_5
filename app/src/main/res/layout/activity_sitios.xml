@@ -4,20 +4,20 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:id="@+id/contenedorDrawerSitios">
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/pagerSitios"/>
     <ListView
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:foregroundGravity="left"
         android:layout_gravity="start"
-        android:id="@+id/menuIzq"
+        android:id="@+id/menuIzqSitios"
         android:choiceMode="singleChoice"
-        android:background="@color/common_plus_signin_btn_text_dark_disabled"></ListView>
-    <android.support.v4.view.ViewPager
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:id="@+id/pagerSitios">
+        android:background="@color/common_plus_signin_btn_text_dark_disabled"/>
 
-    </android.support.v4.view.ViewPager>
+
     <!--Creo un pager para visualizar los sitios en cada tab-->
 </android.support.v4.widget.DrawerLayout>

@@ -7,6 +7,22 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>-->
     </style>
+    <style name="AppTheme.demo">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/negro</item>
+    </style>
+    <style name="AppTheme.hotel">
+        <item name="colorPrimary">@color/azulCeleste</item>
+        <item name="colorAccent">@color/negro</item>
+    </style>
+    <style name="AppTheme.bar">
+        <item name="colorPrimary">@color/rojo</item>
+        <item name="colorAccent">@color/negro</item>
+    </style>
+    <style name="AppTheme.sitio">
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorAccent">@color/negro</item>
+    </style>
     <style name="layoutViewStyle" parent="android:Theme">
         <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
         <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>

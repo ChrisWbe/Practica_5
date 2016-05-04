@@ -2,11 +2,14 @@ package com.christianquintero.practica_5;
 
 import android.content.Intent;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -18,6 +21,7 @@ public class sitiosActivity extends AppCompatActivity {
     private ActionBar actionBar;
     private ListView listView;
     private DrawerLayout drawerLayout;
+    private ActionBarDrawerToggle drawerToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +35,47 @@ public class sitiosActivity extends AppCompatActivity {
 
         actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        actionBar.setTitle(R.string.sitiosTuristicos);
         //pongo un boton en el actionBAr
         if(actionBar != null){
             actionBar.setHomeAsUpIndicator(android.R.drawable.ic_dialog_dialer);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        listView = (ListView)findViewById(R.id.menuIzq);
-        final ArrayAdapter<CharSequence> listaAdaptador = ArrayAdapter.createFromResource(this, R.array.opciones, android.R.layout.simple_list_item_1);
+        listView = (ListView)findViewById(R.id.menuIzqSitios);
+        ArrayAdapter<CharSequence> listaAdaptador = ArrayAdapter.createFromResource(this, R.array.opciones, android.R.layout.simple_list_item_1);
         listView.setAdapter(listaAdaptador);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i;
+                switch (position){
+                    case 0:
+                        i = new Intent(getApplicationContext(), home.class);
+                        startActivity(i);
+                        break;
+                    case 1:
+                        i = new Intent(getApplicationContext(), hotelesActivity.class);
+                        startActivity(i);
+                        break;
+                    case 2:
+                        i = new Intent(getApplicationContext(), baresActivity.class);
+                        startActivity(i);
+                        break;
+                    case 3:
+                        i = new Intent(getApplicationContext(), sitiosActivity.class);
+                        startActivity(i);
+                        break;
+                    case 4:
+                        i=new Intent(getApplicationContext(), demografia.class);
+                        startActivity(i);
+                        break;
+                }
+                finish();
+                drawerLayout.closeDrawer(listView);
+            }
+        });
 
 
         ActionBar.TabListener tabListener = new ActionBar.TabListener() {
@@ -74,38 +110,27 @@ public class sitiosActivity extends AppCompatActivity {
             }
         });
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i;
-                switch (position){
-                    case 0:
-                        i = new Intent(getApplicationContext(), home.class);
-                        startActivity(i);
-                        break;
-                    case 1:
-                        i = new Intent(getApplicationContext(), hotelesActivity.class);
-                        startActivity(i);
-                        break;
-                    case 2:
-                        i = new Intent(getApplicationContext(), baresActivity.class);
-                        startActivity(i);
-                        break;
-                    case 3:
-                        i = new Intent(getApplicationContext(), sitiosActivity.class);
-                        startActivity(i);
-                        break;
-                    case 4:
-                        i=new Intent(getApplicationContext(), demografia.class);
-                        startActivity(i);
-                        break;
-                }
-                finish();
-                drawerLayout.closeDrawer(listView);
+
+
+        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, android.R.drawable.ic_dialog_dialer, R.string.abierto, R.string.cerradp);
+        drawerLayout.setDrawerListener(drawerToggle);
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+
+            if(drawerLayout.isDrawerOpen(GravityCompat.START)){
+                drawerLayout.closeDrawer(GravityCompat.START);
             }
-        });
-
-
+            else{
+                drawerLayout.openDrawer(GravityCompat.START);
+            }
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public void bSitio1(View view){

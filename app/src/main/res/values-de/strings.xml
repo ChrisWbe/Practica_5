@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bar1">Bodeguetta</string>
+    <string name="bar2">El Sacristan</string>
+    <string name="bar3">Tierra Dentro</string>
+    <string name="hotel1">Casa Cayam</string>
+    <string name="hotel2">Guatatur</string>
+    <string name="hotel3">Piedra Santa</string>
+    <string name="sitio1">Isla Guaca </string>
+    <string name="sitio2">Represa de Guatapé</string>
+    <string name="sitio3">Piedra del Peñol</string>
+    <string name="title">Guatape Tourismus</string>
+    <string name="demografia">Gesamtbevölkerung : 5279 Einwohner. (2015) \ nPoblación Urbana : 4155 \ nPoblación Rural: 1124 \ nAlfabetismo : 92,3 (2005) 3 \ städtischen nZona : 93,8 \ ländlichen nZona : 87,8</string>
+    <string name="bar1Info">Alte Keller mit Marmortischen und Stühlen in überfüllten Tapas-Bar Leben mit Wermut und Terrasse.</string>
+    <string name="bar2Info">Im Herzen des historischen Zentrums von Ronda , direkt neben dem majestätischen Königlichen Stiftskirche  Santa Maria Maggiore , dreißig Meter vom Rathaus , auch ganz in der Nähe der Brücke über den Tejo und der berühmten Plaza de Toros, ist es El Meson El Sacristan Restaurant befindet . Ein idyllischer Ort , gut zu essen , durch Stücke der Geschichte dieser alten Menschen umgeben .</string>
+    <string name="bar3Info">Wir besuchten dieses Restaurant und waren angenehm soprendió , Zubereitung von Fisch ist wunderbar und hervorragende Betreuung , voll zu empfehlen.</string>
+    <string name="hotel1Info">Eines der besten Hostels in ganz Südamerika ! Sehr nette Leute , sehr cool , sehr gute Projekte , gute Bilder , gute Kulisse , gute Küche, drei Öfen ! ... Mehr als empfohlen , unvermeidlich.</string>
+    <string name="hotel2Info">Das Guatatur Hotel ist ein modernes Platz in der Stadt Guatape an die lokale Kultur verpflichtet und der natürlichen Umwelt und bieten unseren Gästen Erlebnisse inmitten bezaubernde Landschaften leben.</string>
+    <string name="hotel3Info">Naturschutzgebiet  des Sees Guatape , Guatape </string>
+    <string name="sitio1Info">Eine kleine Pause von der Stadt in einem sehr schönen Ort</string>
+    <string name="sitio2Info">Dieser schöne Monolith von mehr als 220 Meter hoch , in der Antiochian Osten, ist eine der wichtigsten Sehenswürdigkeiten der Abteilung . Um den Gipfel zu erreichen , müssen Sie 740 Treppen schwer zu klettern .. aber der Aufwand ist mit der spektakulären Aussicht belohnt die es bietet, in dem Sie die Embalse de Guatapé sehen können, von einer kalten Flüssigkeit begleitet den Durst zu beruhigen und wieder aufzufüllen Kräfte wieder nach unten .
+Zweifellos eine der Erfahrungen, die nicht zu übersehen , wenn Sie Antioquia sah</string>
+    <string name="sitio3Info">Dieser Ort hat den Charme jener Konstruktionen, bei denen ein mehr als doppelt so denkt , ob oder nicht zu klettern.
+        Die pieda verfügt über eine Treppe, die eine Schnur sieht aus wie diese Vintage-Kleider zu binden. Es befindet sich in der Mitte des Guatapé Damm , einem Damm umgeben , die kleinen Inseln Wunder aus den Augen neugierig gebildet hat , die diesen Teil von Kolumbien besuchen möchten.
+        Der Stein ist etwa eine Stunde von Medellin, der zweitgrößten  Stadt des Landes. Unumgänglich für diejenigen, die die KaffeezoneTour wollen .</string>
+    <string name="boton">Nimm mich</string>
+    <string name="abierto">Open navigation drawer</string>
+    <string name="cerradp">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="demo">Demografische Informationen</string>
+    <string name="lug">Siehe Guatape</string>
+    <string name="tit_Home">Willkommen bei Guatapé</string>
+    <string name="guatape">Guatapé ist eine Gemeinde von Kolumbien , in der Subregion Osten der Provinz Antioquia . \ NLimita nach Norden mit der Stadt Alexandria , im Osten mit der Gemeinde San Rafael, nach Süden mit den Gemeinden von Granada und El Penol und Westen mit El Penol . \ NDie Kopf ist 79 Kilometer von der Stadt Medellin , der Hauptstadt der Abteilung Antioquia . \ NDie Gemeinde hat eine Fläche von 69 Quadratkilometern .</string>
+    <string name="ini">Einleitung</string>
+    <string name="hotel">Hotel</string>
+    <string name="bares">Barren</string>
+    <string name="sitiosTuristicos">Sehenswürdigkeiten</string>
+    <string name="demografiaLi">Demographie</string>
+</resources>

@@ -15,7 +15,7 @@
             style="@style/textViewStyle.contenido"
             android:textAlignment="textStart"
             android:layout_marginTop="20dp"
-            android:text="@string/inf"/>
+            android:text="@string/demografia"/>
 
         <Button
             style="@style/buttonViewStyle"

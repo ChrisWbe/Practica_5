@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="opciones">
-        <item>Home</item>
-        <item>Hoteles</item>
-        <item>Bares</item>
-        <item>Sitios Turisticos</item>
-        <item>Demografía</item>
+        <item>@string/ini</item>
+        <item>@string/hotel</item>
+        <item>@string/bares</item>
+        <item>@string/sitiosTuristicos</item>
+        <item>@string/demografiaLi</item>
     </string-array>
 </resources>

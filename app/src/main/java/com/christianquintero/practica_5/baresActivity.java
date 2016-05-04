@@ -3,12 +3,15 @@ package com.christianquintero.practica_5;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,6 +24,7 @@ public class baresActivity extends AppCompatActivity {
     private ActionBar actionBar;
     private ListView listView;
     private DrawerLayout drawerLayout;
+    private ActionBarDrawerToggle drawerToggle;
 
 
     @Override
@@ -33,7 +37,10 @@ public class baresActivity extends AppCompatActivity {
         pagerBares = (ViewPager)findViewById(R.id.pagerBares);
         pagerBares.setAdapter(adapter);
 
+
+
         actionBar = getSupportActionBar();
+        actionBar.setTitle(R.string.bares);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         if(actionBar != null){
@@ -112,8 +119,24 @@ public class baresActivity extends AppCompatActivity {
             }
         });
 
+        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, android.R.drawable.ic_dialog_dialer, R.string.abierto, R.string.cerradp);
+        drawerLayout.setDrawerListener(drawerToggle);
 
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                if(drawerLayout.isDrawerOpen(GravityCompat.START)){
+                    drawerLayout.closeDrawer(GravityCompat.START);
+                }
+                else{
+                    drawerLayout.openDrawer(GravityCompat.START);
+                }
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public void bBar1(View view){

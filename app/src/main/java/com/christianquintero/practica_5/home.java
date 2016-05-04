@@ -2,11 +2,13 @@ package com.christianquintero.practica_5;
 
 import android.content.Intent;
 import android.os.StrictMode;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -18,6 +20,7 @@ public class home extends AppCompatActivity {
     private ListView listView;
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle drawerToggle;
+    private ActionBar actionBar;
 
 
     @Override
@@ -27,6 +30,9 @@ public class home extends AppCompatActivity {
 
         drawerLayout = (DrawerLayout)findViewById(R.id.contenedorDrawer);
         //drawerToggle = new ActionBarDrawerToggle()
+
+        actionBar = getSupportActionBar();
+        actionBar.setTitle(R.string.ini);
 
 
         listView = (ListView)findViewById(R.id.menuIzq);
@@ -50,7 +56,6 @@ public class home extends AppCompatActivity {
                     case 0:
                         i = new Intent(getApplicationContext(), home.class);
                         startActivity(i);
-                        finish();
                         break;
                     case 1:
                         i = new Intent(getApplicationContext(), hotelesActivity.class);
@@ -69,6 +74,7 @@ public class home extends AppCompatActivity {
                         startActivity(i);
                         break;
                 }
+                finish();
                 drawerLayout.closeDrawer(listView);
             }
         });
@@ -76,6 +82,20 @@ public class home extends AppCompatActivity {
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, android.R.drawable.ic_dialog_dialer, R.string.abierto, R.string.cerradp);
         drawerLayout.setDrawerListener(drawerToggle);
 
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                if(drawerLayout.isDrawerOpen(GravityCompat.START)){
+                    drawerLayout.closeDrawer(GravityCompat.START);
+                }
+                else{
+                    drawerLayout.openDrawer(GravityCompat.START);
+                }
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

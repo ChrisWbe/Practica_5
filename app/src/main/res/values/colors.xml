@@ -6,4 +6,6 @@
     <color name="negro">#000000</color>
     <color name="blanco">#ffffff</color>
     <color name="verde">#04B431</color>
+    <color name="azulCeleste">#00BFFF</color>
+    <color name="rojo">#FF0000</color>
 </resources>

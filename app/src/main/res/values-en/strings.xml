@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bar1">Bodeguetta</string>
+    <string name="bar2">El Sacristan</string>
+    <string name="bar3">Tierra Dentro</string>
+    <string name="hotel1">Casa Cayam</string>
+    <string name="hotel2">Guatatur</string>
+    <string name="hotel3">Piedra Santa</string>
+    <string name="sitio1">Isla Guaca </string>
+    <string name="sitio2">Represa de Guatapé</string>
+    <string name="sitio3">Piedra del Peñol</string>
+    <string name="title">Guatapé Tourism</string>
+    <string name="demografia">Total Population: 5,279 inhabitants . (2015 ) \ n Urban Population : 4,155 \ n Rural Population : 1,124 \ n Literacy: 92.3 (2005 ) 3 \ n District : 93.8 \ n rural area : 87.8</string>
+    <string name="bar1Info">Old cellar with marble tables and stools in crowded tapas bar life with vermouth and terrace.</string>
+    <string name="bar2Info">In the heart of the historic center of Ronda, next to the majestic Royal Collegiate Church of Santa Maria Maggiore , thirty meters from City Hall , also very close to the bridge over the Tagus and the famous Plaza de Toros , it is located El Meson El Sacristan Restaurant . An idyllic place to eat well , surrounded by pieces of the history of this ancient people .</string>
+    <string name="bar3Info">We visited this restaurant and were pleasantly soprendió , preparation of fish is wonderful and excellent care , fully recommended .</string>
+    <string name="hotel1Info">One of the best hostels throughout South America! Very nice people , very cool , very good projects , good paintings, good scenery, good kitchen, three ovens ! ... More than recommended, inevitable.</string>
+    <string name="hotel2Info">The Guatatur hotel is a modern space in the town of Guatape committed to the local culture and natural environment , offering our guests experiences living amid enchanting landscapes .</string>
+    <string name="hotel3Info">Nature reserve area of Lake Guatape , Guatape</string>
+    <string name="sitio1Info">A small break from the city in a very nice place</string>
+    <string name="sitio2Info">This beautiful monolith of more than 220 meters high, located in the Antiochian East, is one of the main attractions of the department . To reach the top , you need to climb 740 stairs difficult .. but the effort is rewarded with the spectacular view it offers , where you can see the Embalse de Guatapé , accompanied by a cold liquid to calm the thirst and replenish forces to back down.
+Undoubtedly one of the experiences that can not be missed when you saw Antioquia.</string>
+    <string name="sitio3Info">This place has the charm of those constructions in which one thinks more than twice whether or not to climb .
+        The pieda has a staircase that looks like a cord tie these vintage dresses . It is nestled in the middle of the Guatapé dam , a dam that has formed islets marvel sight of the curious who want to visit this part of Colombia .
+        The stone is about an hour from Medellin , the second largest city in the country . Unmissable for those who want to tour the coffee zone .</string>
+    <string name="boton">Ride me</string>
+    <string name="abierto">Open navigation drawer</string>
+    <string name="cerradp">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="demo">Demographic information</string>
+    <string name="lug">See Guatapé</string>
+    <string name="tit_Home">Welcome to Guatape</string>
+    <string name="guatape">Guatapé is a municipality of Colombia , located in the subregion East of the department of Antioquia . \ NLimita by the north with the city of Alexandria , in the east with the municipality of San Rafael , south with the municipalities of Granada and El Penol and west with El Penol . \ NYour head is 79 kilometers from the city of Medellin , capital of Antioquia department . \ NThe municipality has an area of ​​69 square kilometers.</string>
+    <string name="ini">Start</string>
+    <string name="hotel">Hotel</string>
+    <string name="bares">Bars</string>
+    <string name="sitiosTuristicos">Tourist sites</string>
+    <string name="demografiaLi">Demography</string>
+</resources>

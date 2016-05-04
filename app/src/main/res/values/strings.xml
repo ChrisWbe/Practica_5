@@ -13,6 +13,7 @@
     <string name="sitio2">Represa de Guatapé</string>
     <string name="sitio3">Piedra del Peñol</string>
     <string name="title">Guatapé Turistica</string>
+    <string name="demografia">Población Total: 5.279 hab. (2015)\nPoblación Urbana: 4.155\nPoblación Rural: 1.124\nAlfabetismo: 92,3 (2005)3\nZona urbana: 93,8\nZona rural: 87,8</string>
     <string name="bar1Info">Antigua bodega con mesas de mármol y taburetes en concurrido bar de tapas de toda la vida con vermú y terraza.</string>
     <string name="bar2Info">En el corazón del Centro Histórico de Ronda, junto a la majestuosa Real Colegiata de Santa María la Mayor, a treinta metros del Ayuntamiento, muy cerca también del puente sobre el Tajo y la famosa Plaza de Toros, se encuentra Ubicado El Restaurante Mesón El Sacristán. Un lugar idílico para comer muy bien, rodeados de trozos de la historia de este pueblo milenario.</string>
     <string name="bar3Info">Visitamos este restaurante y nos soprendió gratamente, la preparación del pescado es maravillosa y la atención inmejorable, totalmente recomendado. </string>
@@ -31,6 +32,14 @@ Sin duda una de las experiencias que no se puede perder cuando viste Antioquia.<
     <string name="title_activity_maps">Map</string>
     <string name="demo">Información Demográfica</string>
     <string name="lug">Ver Guatapé</string>
-    <string name="inf">Hola</string>
+    <string name="tit_Home">Bienvenido a Guatapé</string>
+    <string name="guatape">Guatapé es un municipio de Colombia, localizado en la subregión Oriente del departamento de Antioquia. \nLimita por el norte con el municipio de Alejandría, por el este con el municipio de San Rafael, por el sur con los municipios de Granada y El Peñol y por el Oeste con El Peñol. \nSu cabecera dista 79 kilómetros de la ciudad de Medellín, capital del departamento de Antioquia. \nEl municipio posee una extensión de 69 kilómetros cuadrados.</string>
+    <string name="ini">Inicio</string>
+    <string name="hotel">Hotel</string>
+    <string name="bares">Bares</string>
+    <string name="sitiosTuristicos">Sitios Turisticos</string>
+    <string name="demografiaLi">Demografía</string>
+
+
 
 </resources>

@@ -18,7 +18,7 @@
         android:layout_marginTop="200dp"
         android:id="@+id/titulo"
         android:textSize="40dp"
-        android:textColor="@color/verde"
+        android:textColor="@color/negro"
         android:textStyle="bold"
         android:shadowRadius="2"
         android:shadowDx="0.5"

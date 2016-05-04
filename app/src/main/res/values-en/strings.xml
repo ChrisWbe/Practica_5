@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Guatapé Tourism</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bar1">Bodeguetta</string>
     <string name="bar2">El Sacristan</string>
